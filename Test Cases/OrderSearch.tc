@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OrderSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb573c07-c8ec-4581-be0c-f85a286356ef</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a944f75-42ca-42ff-ade7-fa8161865b46</id>
+      <masked>false</masked>
+      <name>OrderNo</name>
+   </variable>
+</TestCaseEntity>

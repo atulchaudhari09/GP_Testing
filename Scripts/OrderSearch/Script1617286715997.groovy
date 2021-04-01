@@ -19,7 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dev-recycling-portal.azurewebsites.net/profile/dashboard')
+WebUI.navigateToUrl('https://dev-recycling-portal.azurewebsites.net/account/singlesignon?logintoken=pals.wadhe@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/dashboard/Page_My Account - GP Recycling/a_I Agree'))
+WebUI.click(findTestObject('Object Repository/OrderSearch/Page_My Account - GP Recycling/a_I Agree'))
+
+WebUI.click(findTestObject('Object Repository/OrderSearch/Page_My Account - GP Recycling/a_Orders'))
+
+WebUI.setText(findTestObject('OrderSearch/Page_My Orders - GP Recycling/input_SEARCH ORDERS_OrderNumber'), findTestData(
+        'OrderSearch').getValue(1, 1))
+
+WebUI.click(findTestObject('Object Repository/OrderSearch/Page_My Orders - GP Recycling/input_All_criteriasearch'))
+
+WebUI.verifyTextNotPresent('No Search Result(s) found', false)
 
