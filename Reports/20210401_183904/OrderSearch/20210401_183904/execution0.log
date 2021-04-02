@@ -1425,9 +1425,8 @@ Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2021-04-01T19:51:28</date>
   <millis>1617286888382</millis>
@@ -1464,3 +1463,4 @@ Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

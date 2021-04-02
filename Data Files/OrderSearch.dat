@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>aba54e39-f25a-48f4-8b63-4551ec3aca63</dataFileGUID>
-   <dataSourceUrl>C:\Users\achaudhari\Desktop\OrderSearch.xlsx</dataSourceUrl>
+   <dataSourceUrl>E:\DEVOPS\Georgia Pacific - Recycling Portal\GP_Testing\Data Files\OrderSearch.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
