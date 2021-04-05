@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrderSearch,Chrome 89.0.4389.90,,,2021-04-05 11:32:06,2021-04-05 11:33:59,1m - 53.610s,FAILED
+,,,,,,,
+Test Cases/OrderSearch,Chrome 89.0.4389.90,,,2021-04-05 11:32:10,2021-04-05 11:33:07,56.813s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-04-05 11:32:11,2021-04-05 11:32:17,6.037s,PASSED
+"navigateToUrl(""https://dev-recycling-portal.azurewebsites.net/account/singlesignon?logintoken=pals.wadhe@gmail.com"")",Chrome 89.0.4389.90,,,2021-04-05 11:32:17,2021-04-05 11:32:36,19.175s,PASSED
+"click(findTestObject(""Object Repository/OrderSearch/Page_My Account - GP Recycling/a_I Agree""))",Chrome 89.0.4389.90,,,2021-04-05 11:32:36,2021-04-05 11:32:36,0.357s,PASSED
+delay(30),Chrome 89.0.4389.90,,,2021-04-05 11:32:36,2021-04-05 11:33:06,30.052s,PASSED
+"click(findTestObject(""OrderSearch/Page_My Account - GP Recycling/Page_My Account - GP Recycling/a_Orders""))",Chrome 89.0.4389.90,,,2021-04-05 11:33:06,2021-04-05 11:33:07,0.519s,FAILED
+,,,,,,,
+Test Cases/OrderSearch,Chrome 89.0.4389.90,,,2021-04-05 11:33:07,2021-04-05 11:33:59,52.347s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-04-05 11:33:07,2021-04-05 11:33:10,2.907s,PASSED
+"navigateToUrl(""https://dev-recycling-portal.azurewebsites.net/account/singlesignon?logintoken=pals.wadhe@gmail.com"")",Chrome 89.0.4389.90,,,2021-04-05 11:33:10,2021-04-05 11:33:28,18.626s,PASSED
+"click(findTestObject(""Object Repository/OrderSearch/Page_My Account - GP Recycling/a_I Agree""))",Chrome 89.0.4389.90,,,2021-04-05 11:33:28,2021-04-05 11:33:29,0.280s,PASSED
+delay(30),Chrome 89.0.4389.90,,,2021-04-05 11:33:29,2021-04-05 11:33:59,30.017s,PASSED
+"click(findTestObject(""OrderSearch/Page_My Account - GP Recycling/Page_My Account - GP Recycling/a_Orders""))",Chrome 89.0.4389.90,,,2021-04-05 11:33:59,2021-04-05 11:33:59,0.421s,FAILED

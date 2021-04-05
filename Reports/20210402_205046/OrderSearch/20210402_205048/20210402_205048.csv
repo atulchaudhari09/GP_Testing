@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrderSearch,Chrome 89.0.4389.90,,,2021-04-02 20:50:52,2021-04-02 20:52:54,2m - 1.556s,PASSED
+,,,,,,,
+Test Cases/OrderSearch,Chrome 89.0.4389.90,,,2021-04-02 20:50:56,2021-04-02 20:51:59,1m - 2.854s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-04-02 20:50:56,2021-04-02 20:51:00,3.838s,PASSED
+"navigateToUrl(""https://dev-recycling-portal.azurewebsites.net/account/singlesignon?logintoken=pals.wadhe@gmail.com"")",Chrome 89.0.4389.90,,,2021-04-02 20:51:00,2021-04-02 20:51:23,22.626s,PASSED
+"click(findTestObject(""Object Repository/OrderSearch/Page_My Account - GP Recycling/a_I Agree""))",Chrome 89.0.4389.90,,,2021-04-02 20:51:23,2021-04-02 20:51:24,0.647s,PASSED
+delay(30),Chrome 89.0.4389.90,,,2021-04-02 20:51:24,2021-04-02 20:51:54,30.038s,PASSED
+"click(findTestObject(""OrderSearch/Page_My Account - GP Recycling/Page_My Account - GP Recycling/a_Orders""))",Chrome 89.0.4389.90,,,2021-04-02 20:51:54,2021-04-02 20:51:55,1.085s,PASSED
+"setText(findTestObject(""OrderSearch/Page_My Orders - GP Recycling/input_SEARCH ORDERS_OrderNumber""), findTestData(""OrderSearch"").getValue(1, 1))",Chrome 89.0.4389.90,,,2021-04-02 20:51:55,2021-04-02 20:51:57,2.091s,PASSED
+"click(findTestObject(""Object Repository/OrderSearch/Page_My Orders - GP Recycling/input_All_criteriasearch""))",Chrome 89.0.4389.90,,,2021-04-02 20:51:57,2021-04-02 20:51:57,0.474s,PASSED
+"verifyTextNotPresent(""No Search Result(s) found"", false)",Chrome 89.0.4389.90,,,2021-04-02 20:51:57,2021-04-02 20:51:59,1.666s,PASSED
+,,,,,,,
+Test Cases/OrderSearch,Chrome 89.0.4389.90,,,2021-04-02 20:51:59,2021-04-02 20:52:54,54.906s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-04-02 20:51:59,2021-04-02 20:52:02,3.515s,PASSED
+"navigateToUrl(""https://dev-recycling-portal.azurewebsites.net/account/singlesignon?logintoken=pals.wadhe@gmail.com"")",Chrome 89.0.4389.90,,,2021-04-02 20:52:02,2021-04-02 20:52:18,15.660s,PASSED
+"click(findTestObject(""Object Repository/OrderSearch/Page_My Account - GP Recycling/a_I Agree""))",Chrome 89.0.4389.90,,,2021-04-02 20:52:18,2021-04-02 20:52:19,0.652s,PASSED
+delay(30),Chrome 89.0.4389.90,,,2021-04-02 20:52:19,2021-04-02 20:52:49,30.012s,PASSED
+"click(findTestObject(""OrderSearch/Page_My Account - GP Recycling/Page_My Account - GP Recycling/a_Orders""))",Chrome 89.0.4389.90,,,2021-04-02 20:52:49,2021-04-02 20:52:50,0.995s,PASSED
+"setText(findTestObject(""OrderSearch/Page_My Orders - GP Recycling/input_SEARCH ORDERS_OrderNumber""), findTestData(""OrderSearch"").getValue(1, 1))",Chrome 89.0.4389.90,,,2021-04-02 20:52:50,2021-04-02 20:52:52,2.135s,PASSED
+"click(findTestObject(""Object Repository/OrderSearch/Page_My Orders - GP Recycling/input_All_criteriasearch""))",Chrome 89.0.4389.90,,,2021-04-02 20:52:52,2021-04-02 20:52:52,0.486s,PASSED
+"verifyTextNotPresent(""No Search Result(s) found"", false)",Chrome 89.0.4389.90,,,2021-04-02 20:52:52,2021-04-02 20:52:54,1.411s,PASSED

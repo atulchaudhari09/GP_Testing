@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dashboard,Chrome 89.0.4389.90,,,2021-04-01 14:04:50,2021-04-01 14:05:31,41.541s,PASSED
+,,,,,,,
+Test Cases/dashboard,Chrome 89.0.4389.90,,,2021-04-01 14:05:00,2021-04-01 14:05:31,31.393s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-04-01 14:05:02,2021-04-01 14:05:17,14.948s,PASSED
+"navigateToUrl(""https://dev-recycling-portal.azurewebsites.net/profile/dashboard"")",Chrome 89.0.4389.90,,,2021-04-01 14:05:17,2021-04-01 14:05:30,13.616s,PASSED
+"click(findTestObject(""Object Repository/dashboard/Page_My Account - GP Recycling/a_I Agree""))",Chrome 89.0.4389.90,,,2021-04-01 14:05:30,2021-04-01 14:05:31,0.929s,PASSED
