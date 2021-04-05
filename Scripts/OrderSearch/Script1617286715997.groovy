@@ -23,14 +23,12 @@ WebUI.navigateToUrl('https://dev-recycling-portal.azurewebsites.net/account/sing
 
 WebUI.click(findTestObject('Object Repository/OrderSearch/Page_My Account - GP Recycling/a_I Agree'))
 
-WebUI.delay(30)
-
-WebUI.click(findTestObject('OrderSearch/Page_My Account - GP Recycling/Page_My Account - GP Recycling/a_Orders'))
+WebUI.navigateToUrl('https://dev-recycling-portal.azurewebsites.net/profile/myorders')
 
 WebUI.setText(findTestObject('OrderSearch/Page_My Orders - GP Recycling/input_SEARCH ORDERS_OrderNumber'), findTestData(
         'OrderSearch').getValue(1, 1))
 
-WebUI.click(findTestObject('Object Repository/OrderSearch/Page_My Orders - GP Recycling/input_All_criteriasearch'))
+WebUI.click(findTestObject('Page_My Orders - GP Recycling/input_All_criteriasearch'))
 
 WebUI.verifyTextNotPresent('No Search Result(s) found', false)
 

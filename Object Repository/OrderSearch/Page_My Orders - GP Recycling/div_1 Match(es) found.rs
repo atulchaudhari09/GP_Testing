@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='myordersdetails']/div/div[3]/div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Request'])[4]/following::div[8]</value>
       </entry>
       <entry>
          <key>CSS</key>

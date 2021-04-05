@@ -3,15 +3,11 @@
    <description></description>
    <name>input_All_criteriasearch</name>
    <tag></tag>
-   <elementGuidId>0a4f8405-4691-4e89-b63f-6f2d45be8532</elementGuidId>
+   <elementGuidId>1d213433-8912-494c-97fd-0125c9607b81</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='criteriasearch']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;criteriasearch&quot;)[count(. | //*[@type = 'button' and @title = 'Search' and @id = 'criteriasearch']) = count(//*[@type = 'button' and @title = 'Search' and @id = 'criteriasearch'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
