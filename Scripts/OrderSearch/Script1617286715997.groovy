@@ -16,7 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev-recycling-portal.azurewebsites.net/account/singlesignon?logintoken=pals.wadhe@gmail.com')
@@ -27,8 +28,9 @@ WebUI.navigateToUrl('https://dev-recycling-portal.azurewebsites.net/profile/myor
 
 WebUI.setText(findTestObject('OrderSearch/Page_My Orders - GP Recycling/input_SEARCH ORDERS_OrderNumber'), findTestData(
         'OrderSearch').getValue(1, 1))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Page_My Orders - GP Recycling/input_All_criteriasearch'),30)
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
-WebUI.click(findTestObject('Page_My Orders - GP Recycling/input_All_criteriasearch'))
 
 WebUI.verifyTextNotPresent('No Search Result(s) found', false)
 
